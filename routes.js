@@ -1,4 +1,5 @@
 const express = require('express');
+const instructors = require('./Controllers/instructors');
 
 const routes = express.Router();
 
@@ -14,9 +15,7 @@ routes.get('/instructors/create', (req, res) => {
   return res.render('instructors/create');
 });
 
-routes.post('/instructors', (req, res) =>{
-  return res.send('Recebido');
-});
+routes.post('/instructors', instructors.post);
 
 routes.get('/members', (req, res ) => {
   return res.send('members');
