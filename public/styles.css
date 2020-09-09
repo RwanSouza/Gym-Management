@@ -170,7 +170,7 @@ input::placeholder {
   font-weight: normal;
 }
 
-button[type="submit"] {
+button[type="submit"], a.button {
   padding: 8px 32px;
   background-color: var(--color-ligh-purple);
   color: white;
@@ -179,6 +179,13 @@ button[type="submit"] {
   margin-top: 32px;
   width: 100%;
   font-size: 16px;
+}
+
+a.button {
+  text-decoration: none;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .details .item .choice-box {
