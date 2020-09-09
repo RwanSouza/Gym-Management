@@ -22,7 +22,6 @@ exports.show = (req, res) => {
 
 // Create;
 exports.post = (req, res) => {
-
   const keys = Object.keys(req.body)
 
   for(key of keys) {
@@ -54,3 +53,13 @@ exports.post = (req, res) => {
 
 };
 
+//edit
+exports.edit = (req, res) => {
+  const { id } = req.params;
+
+  const foundInstructor = data.instructors.find((instructor) =>  { return id == instructor.id });
+
+  if(!foundInstructor) return res.send('Instructor not found');
+
+  return res.render('instructors/edit', {instructor: foundInstructor});
+}

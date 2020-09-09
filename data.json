@@ -8,6 +8,15 @@
       "gender": "M",
       "services": "Body Builder",
       "created_at": 1599540812072
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://www.google.com",
+      "name": "Camila Viana",
+      "birth": 904608000000,
+      "gender": "F",
+      "services": "Crossfit, Body Builder",
+      "created_at": 1599617329892
     }
   ]
 }
