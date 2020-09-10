@@ -53,7 +53,7 @@ exports.post = (req, res) => {
 
 };
 
-//edit
+// edit
 exports.edit = (req, res) => {
   const { id } = req.params;
 
@@ -86,9 +86,26 @@ exports.put = (req, res) => {
 
   data.instructors[id - 1] = instructor;
 
-  fs.writeFile('data.json', JSON.stringify(data, null,), function(err) {
+  fs.writeFile('data.json', JSON.stringify(data, null, 2), function(err) {
     if(err) return res.send('Write error');
 
     return res.redirect(`/instructors/${id}`);
+  });
+}
+
+// delete
+exports.delete =(req, res) => {
+  const { id } = req.body;
+
+  const filteredInstructors = data.instructors.filter((instructor) => {
+    return  instructor.id != id;
+  });
+
+  data.instructors = filteredInstructors;
+
+  fs.writeFile('data.json', JSON.stringify(data, null, 2), function(err) {
+    if(err) return res.send('Write error');
+
+    return res.redirect(`/instructors/`);
   });
 }

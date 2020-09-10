@@ -203,3 +203,8 @@ a.button {
   display: flex;
   flex-direction: row;
 }
+
+#form-delete button[type="submit"] {
+  margin-top: 8px;
+  background-color: lightcoral;
+}
