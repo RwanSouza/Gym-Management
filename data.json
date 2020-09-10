@@ -2,7 +2,7 @@
   "instructors": [
     {
       "id": 1,
-      "avatar_url": "https://avatars0.githubusercontent.com/u/58310289?s=460&u=5b27014bcf31ffa93762537ade70d0528dab2c11&v=4",
+      "avatar_url": "https://listenx.com.br/blog/wp-content/uploads/2020/01/original-81f15d95efad8c272364a18694ef916d.jpeg",
       "name": "Rwan Souza",
       "birth": 766368000000,
       "gender": "M",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "avatar_url": "http://www.google.com",
+      "avatar_url": "https://boaforma.abril.com.br/wp-content/uploads/sites/2/2018/03/thinkstockphotos-907863518-1.jpg",
       "name": "Paula Cardoso",
       "birth": 1095206400000,
       "gender": "F",
@@ -20,12 +20,21 @@
     },
     {
       "id": 3,
-      "avatar_url": "http://www.google.com",
+      "avatar_url": "https://www.tribunapr.com.br/wp-content/uploads/sites/1/2018/11/juju-salimeni-reproducao-instagram.jpg",
       "name": "Camila Viana",
       "birth": 778377600000,
       "gender": "F",
       "services": "Crossfit, Body Builder",
       "created_at": 1599765557260
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://gtimg.tokyo2020.org/image/private/t_article-lead-image-desktop/v1582392665/production/ikk26dtn3rv6oo5z17w2",
+      "name": "Carlos Henrique",
+      "birth": 665366400000,
+      "gender": "M",
+      "services": "Swimming",
+      "created_at": 1599769580557
     }
   ]
 }
