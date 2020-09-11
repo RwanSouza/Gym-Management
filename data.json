@@ -1,4 +1,28 @@
 {
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://bloximages.chicago2.vip.townnews.com/gazettes.com/content/tncms/assets/v3/editorial/b/d9/bd9b942e-00d4-11ea-aa33-57414593760b/5dc32e9d59cd1.image.jpg",
+      "name": "Lucas Silv",
+      "email": "LSilva@hotmail.com",
+      "birth": 766368000000,
+      "gender": "M",
+      "blood": "B-",
+      "weight": "64",
+      "height": "175"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://boaforma.abril.com.br/wp-content/uploads/sites/2/2018/03/thinkstockphotos-907863518-1.jpg",
+      "name": "Camila Viana",
+      "email": "camif3@gmail.com",
+      "birth": 666576000000,
+      "gender": "F",
+      "blood": "B+",
+      "weight": "60",
+      "height": "168"
+    }
+  ],
   "instructors": [
     {
       "id": 1,

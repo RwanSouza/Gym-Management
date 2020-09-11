@@ -256,7 +256,7 @@ tbody tr td:first-child span {
   border: 2px solid white;
 }
 
-tbody tr td:last-child a {
+tbody tr td:last-child a, .table-container > a {
   background-color: var(--color-purple);
   padding: 6px 12px;
   text-decoration: none;
@@ -264,4 +264,9 @@ tbody tr td:last-child a {
   color: white;
   font-size: 12px;
   border-radius: 3px;
+}
+
+.table-container > a {
+  display: inline-block;
+  margin-bottom: 15px;
 }
