@@ -270,3 +270,27 @@ tbody tr td:last-child a, .table-container > a {
   display: inline-block;
   margin-bottom: 15px;
 }
+
+/* Filter */
+
+.table-container .header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.table-container .header a {
+  margin:0;
+  width: 120px;
+}
+
+.table-container .header form {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  align-items: center;
+}
+
+.table-container .header form button {
+  margin: 0;
+}
